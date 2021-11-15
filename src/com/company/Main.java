@@ -14,10 +14,10 @@ public class Main {
         int j = scanner.nextInt();
 
         String[][] str = new String[i][j];
-        for (int i_ = 0; i < i; i++) {
-            for (int j_ = 0; j_ < j; j_++) {
-                System.out.println("Введите строку[" + i_ + "," + j_ + "]: ");
-                str[i_][j_] = scanner.next();
+        for (int k = 0; i < i; i++) {
+            for (int l = 0; l < j; l++) {
+                System.out.println("Введите строку[" + k + "," + l + "]: ");
+                str[k][l] = scanner.next();
             }
         }
         getArraySumm(str);
